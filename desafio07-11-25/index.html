@@ -11,11 +11,11 @@
 
 <body class="flex min-h-screen">
     <!-- LATERAL ESQUERDA-->
-    <aside class="w-[214px] flex-shrink-0">
+    <aside class="w-[214px] flex-shrink-0 border-r-2">
         <nav class="bg-white p-4 rounded-l-3xl">
             <div class=" flex items-center h-[40px] mb-3">
                 <i class="fa-solid fa-user p-2"></i>
-                <p class="py-[10px]">ByeWind</p> 
+                <p class="py-[10px]">ByeWind</p>
             </div>
             <ul class=" mb-1 flex">
                 <li class="px-3 py-1 mr-2 h-[28px] text-gray-500">Favorites</li>
@@ -52,31 +52,32 @@
         </nav>
     </aside>
     <!-- MEIO -->
-     <div>
-         <header>
+    <div>
+        <header>
             <nav>
-            <div class="bg-white h-[68px] w-[948px] flex justify-between">
-                <div class="flex">
-                    <div class="py-5 pl-7 pr-2">
-                        <i class="fa-regular fa-address-book p-[6px]"></i>
-                        <i class="fa-regular fa-star p-[6px]"></i>
+                <div class="bg-white h-[68px] w-[948px] border-b-2 flex justify-between">
+                    <div class="flex">
+                        <div class="py-5 pl-7 pr-2">
+                            <i class="fa-regular fa-address-book p-[6px]"></i>
+                            <i class="fa-regular fa-star p-[6px]"></i>
+                        </div>
+                        <div class="flex py-5">
+                            <p>Dashboards</p>
+                            <p>Default</p>
+                        </div>
                     </div>
-                    <div class="flex py-5">
-                        <p>Dashboards</p>
-                        <p>Default</p>
+                    <div class="mr-7 py-5">
+                        <input class="bg-gray-200 rounded-2xl h-7 w-[160px] pl-8" type="text" placeholder="Search">
+                        <i class="fa-regular fa-sun p-[6px] mr-2 ml-5"></i>
+                        <i class="fa-solid fa-clock-rotate-left p-[6px] mr-2"></i>
+                        <i class="fa-regular fa-bell p-[6px] mr-2"></i>
+                        <i class="fa-solid fa-book p-[6px]"></i>
                     </div>
                 </div>
-                <div class="mr-7 py-5">
-                    <input class="bg-gray-200 rounded-2xl h-7 w-[160px] pl-8" type="text" placeholder="Search">
-                    <i class="fa-regular fa-sun p-[6px] mr-2 ml-5"></i>
-                    <i class="fa-solid fa-clock-rotate-left p-[6px] mr-2"></i>
-                    <i class="fa-regular fa-bell p-[6px] mr-2"></i>
-                    <i class="fa-solid fa-book p-[6px]"></i>
-                </div>
-            </div>
             </nav>
-         </header>
-         <main class="flex flex-col mt-[72px]">
+        </header>
+        <!-- main superior -->
+        <main class="flex flex-col mt-[72px] ml-7">
             <section class="flex justify-between">
                 <div class="w-[202px] h-[112px] mr-7 bg-[#EDEEFC] rounded-[20px] p-6">
                     <p>Views</p>
@@ -96,7 +97,7 @@
                 </div>
                 <div class="w-[202px] h-[112px] mr-7 bg-[#EDEEFC] rounded-[20px] p-6">
                     <p>New Users</p>
-                     <div class="flex items-center">
+                    <div class="flex items-center">
                         <p class="font-semibold text-[24px]">156</p>
                         <p class="pl-[14px] text-[14px] pr-2">+15.03%</p>
                         <i class="fa-solid fa-arrow-trend-up"></i>
@@ -104,16 +105,16 @@
                 </div>
                 <div class="w-[202px] h-[112px] bg-[#E6F1FD] rounded-[20px] p-6">
                     <p>Active Users</p>
-                     <div class="flex items-center">
+                    <div class="flex items-center">
                         <p class="font-semibold text-[24px]">2,318</p>
                         <p class="pl-[14px] text-[14px] pr-2">+6,08%</p>
                         <i class="fa-solid fa-arrow-trend-up"></i>
                     </div>
                 </div>
             </section>
-            <!-- GRÁFICO MAIN -->
-            <section class="mt-7 flex">
-                <div class="w-[662px] bg-gray-100 rounded-[20px]">
+            <!-- main meio -->
+            <section class="mt-7 flex justify-between">
+                <div class="w-[680px] bg-gray-100 rounded-[20px]">
                     <div class="flex mx-6 pt-6 text-[14px]">
                         <ul class="flex">
                             <li class="font-semibold mr-4">Total Users</li>
@@ -126,13 +127,15 @@
                         </ul>
                     </div>
                     <div class="flex">
-                        <ul class="ml-6">
+                        <ul class="ml-6 text-gray-500">
                             <li class="mt-4">30K</li>
                             <li class="py-[61.5px]">20K</li>
                             <li class="pb-[61.5px]">10K</li>
                             <li>0</li>
                         </ul>
-                        <img class="w-[575px] h-[246px] mx-6 mt-[60px]" src="https://images.vexels.com/media/users/3/209869/isolated/preview/9127ba39a545398211914b3266505731-grafico-de-linhas-desenhado-a-mao.png" alt="grafico">
+                        <img class="w-[575px] h-[246px] mx-6 mt-[60px]"
+                            src="https://images.vexels.com/media/users/3/209869/isolated/preview/9127ba39a545398211914b3266505731-grafico-de-linhas-desenhado-a-mao.png"
+                            alt="grafico">
                     </div>
                     <ul class="flex pl-[60px] justify-around">
                         <li>Jan</li>
@@ -144,12 +147,74 @@
                         <li>Jul</li>
                     </ul>
                 </div>
-                <div>
-                    
+                <div class="w-[202px] bg-gray-100 ml-7 rounded-[20px]">
+                    <p class="mx-7 mt-6 font-semibold mb-4">Traffic by Website
+                    </p>
+                    <div class="flex">
+                        <ul>
+                            <li class="ml-7 mb-[26.8px]">Google</li>
+                            <li class="ml-7 mb-[26.8px]">YouTube</li>
+                            <li class="ml-7 mb-[26.8px]">Instagram</li>
+                            <li class="ml-7 mb-[26.8px]">Pinterest</li>
+                            <li class="ml-7 mb-[26.8px]">Facebook</li>
+                            <li class="ml-7">Twitter</li>
+                        </ul>
+                        <ul>
+                            <li class="ml-4 mb-[26.8px]">---</li>
+                            <li class="ml-4 mb-[26.8px]">---</li>
+                            <li class="ml-4 mb-[26.8px]">---</li>
+                            <li class="ml-4 mb-[26.8px]">---</li>
+                            <li class="ml-4 mb-[26.8px]">---</li>
+                            <li class="ml-4">---</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
-         </main>
-     </div>
+            <!-- main inferior -->
+             <section class="flex justify-between">
+                <div class="p-6 mt-7 w-[432px] bg-gray-50 rounded-[20px]">
+                    <p class="font-semibold  ">Traffic by Device</p>
+                    <div class="flex my-4">
+                        <ul class="text-gray-500 flex flex-col justify-around">
+                            <li>30K</li>
+                            <li>20K</li>
+                            <li>10K</li>
+                            <li>0</li>
+                        </ul>
+                        <img src="img/Captura de tela 2025-11-14 162135.png" alt="grafico">
+                    </div>
+                    <ul class="flex justify-around">
+                        <li>Linux</li>
+                        <li>Mac</li>
+                        <li>iOS</li>
+                        <li>Windows</li>
+                        <li>Android</li>
+                        <li>Other</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 flex flex-col mt-[28px] ml-[28px] rounded-[20px] w-[432px]">
+                    <p class="mx-6 mt-6 mb-4 ml-5 font-semibold">Traffic by Location</p>
+                    <div class="flex items-center">
+                        <img class="w-[150px] my-[38px] mr-[38px] ml-[20px]" src="https://images.vexels.com/media/users/3/129853/isolated/preview/64bb6610e473e642fa58555c5faa8199-grafico-de-pecas-coloridas-de-4-partes.png" alt="">
+                        <div class="flex items-center ml-[40px] mr-5">
+                            <ul class="my-[40px]">
+                                <li class="list-disc">USA</li>
+                                <li class="list-disc">Canada</li>
+                                <li class="list-disc">Mexico</li>
+                                <li class="list-disc">Other</li>
+                            </ul>
+                            <ul class="ml-16">
+                                <li>51.1%</li>
+                                <li>22.8%</li>
+                                <li>13.9%</li>
+                                <li>11.2%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+             </section>
+        </main>
+    </div>
 </body>
 
 </html>
