@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Overview</title>
+</head>
+
+<body class="flex min-h-screen">
+    <!-- LATERAL ESQUERDA-->
+    <aside class="w-[214px] flex-shrink-0">
+        <nav class="bg-white p-4 rounded-l-3xl">
+            <div class=" flex items-center h-[40px] mb-3">
+                <i class="fa-solid fa-user p-2"></i>
+                <p class="py-[10px]">ByeWind</p> 
+            </div>
+            <ul class=" mb-1 flex">
+                <li class="px-3 py-1 mr-2 h-[28px] text-gray-500">Favorites</li>
+                <li class="px-3 py-1 text-gray-400">Recently</li>
+            </ul>
+            <ul>
+                <li class="h-[36px] mb-1 flex items-center pl-[24px]">Overview</li>
+                <li class="h-[36px] mb-3 flex items-center pl-[24px] pb-2">Projects</li>
+            </ul>
+            <ul>
+                <li class=" px-3 py-1 text-gray-500 mb-1 h-[28px] flex items-center">Dashboards</li>
+                <li class="bg-gray-100 mb-1 pl-[56px] h-[36px] py-2 flex items-center rounded-xl">Overview</li>
+                <li class=" mb-1 pl-[56px] h-[36px] py-2 flex items-center">eCommerce</li>
+                <li class=" pl-[56px] h-[36px] py-2 flex items-center mb-3">Projects</li>
+            </ul>
+            <ul>
+                <li class=" px-3 py-1 text-gray-500 mb-1 h-[28px] flex items-center">Pages</li>
+                <li class=" pl-[56px] h-[36px] py-2 flex items-center mb-1">User Profile</li>
+                <li class=" py-2 pl-[56px] mb-1">Overview</li>
+                <li class=" py-2 pl-[56px] mb-1">Projects</li>
+                <li class=" py-2 pl-[56px] mb-1">Campaigns</li>
+                <li class=" py-2 pl-[56px] mb-1">Documents</li>
+                <li class=" py-2 pl-[56px] mb-1">Followers</li>
+                <li class=" pl-[56px] h-[36px] py-2 flex items-center mb-1">Accoun</li>
+                <li class=" pl-[56px] h-[36px] py-2 flex items-center mb-1">Corporate</li>
+                <li class=" pl-[56px] h-[36px] py-2 flex items-center mb-1">Blog</li>
+                <li class=" pl-[56px] h-[36px] py-2 flex items-center mb-3">Social</li>
+            </ul>
+            <div class="mt-[164px] flex justify-center mx-4 px-[52px]">
+                <i class="fa-regular fa-snowflake flex items-center mr-1" style="color: #74C0FC;"></i>
+                <p class="mr-[2px] text-[#4F507F]">SNOW</p>
+                <P class="text-gray-400">UI</P>
+            </div>
+        </nav>
+    </aside>
+    <!-- MEIO -->
+     <div>
+         <header>
+            <nav>
+            <div class="bg-white h-[68px] w-[948px] flex justify-between">
+                <div class="flex">
+                    <div class="py-5 pl-7 pr-2">
+                        <i class="fa-regular fa-address-book p-[6px]"></i>
+                        <i class="fa-regular fa-star p-[6px]"></i>
+                    </div>
+                    <div class="flex py-5">
+                        <p>Dashboards</p>
+                        <p>Default</p>
+                    </div>
+                </div>
+                <div class="mr-7 py-5">
+                    <input class="bg-gray-200 rounded-2xl h-7 w-[160px] pl-8" type="text" placeholder="Search">
+                    <i class="fa-regular fa-sun p-[6px] mr-2 ml-5"></i>
+                    <i class="fa-solid fa-clock-rotate-left p-[6px] mr-2"></i>
+                    <i class="fa-regular fa-bell p-[6px] mr-2"></i>
+                    <i class="fa-solid fa-book p-[6px]"></i>
+                </div>
+            </div>
+            </nav>
+         </header>
+         <main class="flex flex-col mt-[72px]">
+            <section class="flex justify-between">
+                <div class="w-[202px] h-[112px] mr-7 bg-[#EDEEFC] rounded-[20px] p-6">
+                    <p>Views</p>
+                    <div class="flex items-center">
+                        <p class="font-semibold text-[24px]">7,265</p>
+                        <p class="pl-[14px] text-[14px] pr-2">+11,01%</p>
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                    </div>
+                </div>
+                <div class="w-[202px] h-[112px] mr-7 bg-[#E6F1FD] rounded-[20px] p-6">
+                    <p>Visits</p>
+                    <div class="flex items-center">
+                        <p class="font-semibold text-[24px]">3,671</p>
+                        <p class="pl-[14px] text-[14px] pr-2">-0,03%</p>
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                    </div>
+                </div>
+                <div class="w-[202px] h-[112px] mr-7 bg-[#EDEEFC] rounded-[20px] p-6">
+                    <p>New Users</p>
+                     <div class="flex items-center">
+                        <p class="font-semibold text-[24px]">156</p>
+                        <p class="pl-[14px] text-[14px] pr-2">+15.03%</p>
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                    </div>
+                </div>
+                <div class="w-[202px] h-[112px] bg-[#E6F1FD] rounded-[20px] p-6">
+                    <p>Active Users</p>
+                     <div class="flex items-center">
+                        <p class="font-semibold text-[24px]">2,318</p>
+                        <p class="pl-[14px] text-[14px] pr-2">+6,08%</p>
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- GRÁFICO MAIN -->
+            <section class="mt-7 flex">
+                <div class="w-[662px] bg-gray-100 rounded-[20px]">
+                    <div class="flex mx-6 pt-6 text-[14px]">
+                        <ul class="flex">
+                            <li class="font-semibold mr-4">Total Users</li>
+                            <li class="text-gray-500 mr-4">Total Projects</li>
+                            <li class="text-gray-500 mr-4">Operating Status</li>
+                        </ul>
+                        <ul class="flex">
+                            <li class="ml-4 mr-4 list-disc">this yars</li>
+                            <li class="ml-4 list-disc">Last year</li>
+                        </ul>
+                    </div>
+                    <div class="flex">
+                        <ul class="ml-6">
+                            <li class="mt-4">30K</li>
+                            <li class="py-[61.5px]">20K</li>
+                            <li class="pb-[61.5px]">10K</li>
+                            <li>0</li>
+                        </ul>
+                        <img class="w-[575px] h-[246px] mx-6 mt-[60px]" src="https://images.vexels.com/media/users/3/209869/isolated/preview/9127ba39a545398211914b3266505731-grafico-de-linhas-desenhado-a-mao.png" alt="grafico">
+                    </div>
+                    <ul class="flex pl-[60px] justify-around">
+                        <li>Jan</li>
+                        <li>Feb</li>
+                        <li>Mar</li>
+                        <li>Apr</li>
+                        <li>May</li>
+                        <li>Jun</li>
+                        <li>Jul</li>
+                    </ul>
+                </div>
+                <div>
+                    
+                </div>
+            </section>
+         </main>
+     </div>
+</body>
+
+</html>
