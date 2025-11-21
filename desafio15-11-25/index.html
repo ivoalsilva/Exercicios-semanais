@@ -14,60 +14,92 @@
     <!-- MENU PRINCIPAL -->
     <header class="flex justify-between">
 
-        <nav class="w-full h-[56px] border-b-[4px] border-b-[#3D5AFF] bg-[#FCFC30] flex justify-between items-center py-2 px-3">
-            <section class="flex cursor-pointer">
+        <nav
+            class="w-full h-[56px] border-b-[4px] border-b-[#3D5AFF] bg-[#FCFC30] flex justify-between items-center py-2 px-3">
+            <section class="flex cursor-pointer items-center">
 
                 <div class="flex items-center">
-                    <i class="fa-solid fa-bars text-[#465EFF] w-6 ml-1"></i>
-                    <img class="w-[36px] h-[36px]" src="img/images.jpg" alt="logo BB">
+                    <button class="hover:bg-[#b2b753] p-1 rounded-md border-none">
+                        <i class="fa-solid fa-bars text-[#465EFF] w-6 ml-1 text-[22px] flex items-center"></i>
+                    </button>
+                    <img class="w-[50px] h-[50px] relative left-[-2px]" src="img/images.jpg" alt="logo BB">
+                    <div class="border-l border-[#11121440] h-8 mr-3"></div>
                 </div>
 
-                <ul class="flex text-[#455EFF] text-[16px] font-medium">
+                <ul class="flex text-[#455EFF] text-[17px] font-medium pl-4">
                     <li>
                         <button class="py-4 px-2 h-[32px] flex items-center rounded-md hover:bg-[#b2b753]">
                             Pra Você
-                            <i class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center"></i>
+                            <i
+                                class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center text-[12px]"></i>
                         </button>
                     </li>
                     <li>
                         <button class="py-4 px-2 h-[32px] flex items-center rounded-md hover:bg-[#b2b753]">
                             Pro Seu Negócio
-                            <i class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center"></i>
+                            <i
+                                class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center text-[12px]"></i>
                         </button>
                     </li>
                     <li>
                         <button class="py-4 px-2 h-[32px] flex items-center rounded-md hover:bg-[#b2b753]">
                             Agronegócios
-                            <i class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center"></i>
+                            <i
+                                class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center text-[12px]"></i>
                         </button>
                     </li>
                     <li>
                         <button class="py-4 px-2 h-[32px] flex items-center rounded-md hover:bg-[#b2b753]">
                             Setor Público
-                            <i class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center"></i>
+                            <i
+                                class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center text-[12px]"></i>
                         </button>
                     </li>
                 </ul>
 
                 <div class="bg-[#d2d569] flex items-center w-[320px] text-white border border-transparent focus-within:border-white
-                rounded-[4px]">
-                <!-- focus-within: significa: “Quando QUALQUER elemento DENTRO desta DIV ganhar foco, aplique o estilo.” -->
-                <i class="fa-solid fa-magnifying-glass pl-4 pr-2 flex items-center"></i>
+                rounded-[4px] ml-4">
+                    <!-- focus-within: significa: “Quando QUALQUER elemento DENTRO desta DIV ganhar foco, aplique o estilo.” -->
+                    <i class="fa-solid fa-magnifying-glass pl-4 pr-2 flex items-center"></i>
 
-                    <input class="flex items-center w-full h-[36px] bg-transparent pr-3 placeholder-white focus:outline-none text-white" type="text" placeholder="O que você precisa?">
+                    <input
+                        class="flex items-center w-full h-[36px] bg-transparent pr-3 placeholder-white focus:outline-none text-white"
+                        type="text" placeholder="O que você precisa?">
                     <!-- uma borda automática chamada focus outline colocada pelo navegador. -->
                 </div>
             </section>
-            <section class="text-[#455EFF] text-[16px] leading-tight font-medium flex items-center hover:bg-[#b2b753]">
-                <button class="py-4 px-2 h-[32px] flex items-center rounded-md">ACESSAR SUA CONTA</button>
-                <i class="fa-solid fa-chevron-down ml-2 h-[20px] w-[20px] flex justify-center items-center"></i>
+            <section
+                class="text-[#455EFF] text-[16px] leading-tight font-medium flex items-center hover:bg-[#b2b753] rounded-md">
+                <button class="py-4 px-2 h-[32px] flex items-center">ACESSE SUA CONTA</button>
+                <i
+                    class="fa-solid fa-chevron-down mx-2 h-[20px] w-[20px] flex justify-center items-center text-[12px]"></i>
             </section>
         </nav>
 
     </header>
+    <section class="h-[40px] flex justify-center items-center bg-[#3D5AFF] text-[#FCFC30] text-[14px]">
+        <div class="flex items-center h-[20px] w-[1056px] gap-2">
+            <a class="font-medium pr-1" href="#">
+                <i class="fa-solid fa-house pr-1"></i>
+                Investimentos</a>
+            <span>/</span>
+            <P>CDB</P>
+        </div>
+    </section>
     <!-- MENU -->
-    <main>
-        <img class="w-full" src="img/Imagem do WhatsApp de 2025-11-15 à(s) 16.46.19_a0b5a30d.jpg" alt="">
+    <main class="h-screen bg-cover bg-center relative"
+        style="background-image: url(img/Imagem\ do\ WhatsApp\ de\ 2025-11-15\ à\(s\)\ 16.46.19_a0b5a30d.jpg);">
+        <!-- relative na MAIN: OS FILHOS vão ficar dentro da área da main, sem o relative os filhos iriam se posicionar em relação a pagina -->
+        <!-- absolute nos FILHOS: flutua. -->
+        <section class="w-[382px] pl-4 mb-4 ml-[250px] pt-[50px]">
+            <h1 class="text-[#FCFC30] font-bold text-[50px]">CDB</h1>
+            <p class="text-white mb-6 text-[18px]">Pra você que busca um investimento seguro e que possa ser resgatado a qualquer
+                hora, com o Certificado de Depósito Bancário (CDB), você investe seu dinheiro com
+                remuneração diária.</p>
+                <button class="text-[#3D5AFF] mt-[32px] px-[32px] bg-[#FCFC30] h-[48PX] rounded-[4px] text-[16px] font-semibold" type="button">INVESTIR AGORA</button>
+        </section>
+        <section>
+        </section>
     </main>
 </body>
 
