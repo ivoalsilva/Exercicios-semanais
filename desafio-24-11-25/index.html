@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Clone Spotify</title>
+</head>
+
+<body class="bg-gray-300">
+
+  <header class="flex justify-between text-white h-[138px] items-center bg-black rounded-t-[42px]">
+    <section class="flex h-[42px] cursor-pointer">
+      <img class="w-9 h-9 ml-[84px]" src="img/spotify.png" alt="">
+      <p class="font-bold text-[24px]">Spotify</p>
+    </section>
+    <section class="mr-[84px] h-[42px]">
+      <nav class="flex font-semibold text-[16px]">
+        <ul class="flex items-center mr-[72px]">
+          <li class=" cursor-pointer hover:bg-[#1ED760] rounded-sm"><a href="#">Premium</a></li>
+          <li class="ml-[72px] cursor-pointer hover:bg-[#1ED760] rounded-sm"><a href="#">Support</a></li>
+          <li class="ml-[72px] cursor-pointer hover:bg-[#1ED760] rounded-sm"><a href="#">Download</a></li>
+        </ul>
+        <button class="flex items-center" type="button">
+          <img class="w-[42px] rounded-[50px] mr-4" src="img/Sem título.png" alt="usuário">
+          Profile
+          <i class="fa-solid fa-angle-down pt-1 ml-3"></i>
+        </button>
+      </nav>
+    </section>
+  </header>
+  <main class="bg-black flex justify-between">
+    <div class="pt-[69px] ml-[78px] w-[747px]">
+      <section class="w-[570px] text-white">
+        <h1 class="font-bold text-[72px] [word-spacing:-5px] mb-[32px]">Discover a World of Music with Spotify
+        </h1>
+        <p class="text[16px] mb-[32px]"> Welcome to Spotify, where music comes alive. Experience a universe of <br> endless tunes, handpicked playlists, and
+          personalized recommendations <br> just for you.
+        </p>
+        <button class="w-[247px] h-[52px] py-[14px] flex items-center px-4 pl-4 border mb-[36px] border-white rounded-[50px] hover:bg-[#1ED760] hover:text-black" type="button">
+          DOWNLOAD THE APP
+          <div class="w-[36px] h-[36px] bg-white flex items-center justify-center rounded-3xl my-2 ml-5">
+            <i class="fa-solid fa-arrow-up text-black rotate-45"></i>
+          </div>
+        </button>
+        <div class="flex items-center">
+          <div class="flex -space-x-3 mr-4 bg-blue-200">
+            <img class="w-[36px] h-[36px] rounded-3xl border-2 border-white object-cover" src="img/perfil11.webp" alt="">
+            <img class="w-[36px] h-[36px] rounded-3xl border-2 border-white object-cover" src="img/perfil22.jpeg" alt="">
+            <img class="w-[36px] h-[36px] rounded-3xl border-2 border-white object-cover" src="img/perfil33.avif" alt="">
+            <img class="w-[36px] h-[36px] rounded-3xl border-2 border-white object-cover" src="img/perfil44.avif" alt="">
+          </div>
+          <h2 class="text-[16px] leading-4">517.69 million+ <br> Spotify users worldwide</h2>
+        </div>
+      </section>
+    </div>
+    <div class="w-[738px] h-[958px] bg-[#0D2215] rounded-[42px]">
+      <img class="w-full" src="https://icones.pro/wp-content/uploads/2021/04/logo-spotify-icone-png-vert.png" alt="">
+    </div>
+  </main>
+
+
+
+
+
+
+  <!--LINHA 37
+   [word-spacing:1px] espaçamento entre letras -->
+
+  <!-- LINHA 48-DIV;
+    EVITA DEFORMAÇÃO DA IMAGEM- object-cover  -->
+
+   <!--LINHA 48-DIV-SOLUÇAO PARA NAO USAR POSITION
+    utilidade de espaçamento horizontal entre elementos irmãos dentro de um flex container(TEM QUE ESTA EM FLEX OU GRID PARA FUNCIONAR CORRETAMENTE) -->
+</body>
+</html>
